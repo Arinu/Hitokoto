@@ -8,7 +8,7 @@ window.onload=function () {
 	setcolor();
 	function update() {
 		gethi = new XMLHttpRequest();
-		gethi.open("GET","http://api.hitokoto.cn/?c=a");
+		gethi.open("GET","https://sslapi.hitokoto.cn/?c=a");
 		gethi.responseType="json";
 		gethi.send();
 		gethi.onreadystatechange = function () {
