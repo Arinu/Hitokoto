@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 微软雅黑,Sans-serif;
+	text-align:center;
+}
+.windows{
+	margin:10% auto auto auto;
+	width:560px;
+	background-color: #fff;
+	position: relative;
+	display: table;
+	border-radius: 5px;
+}
+.content{
+	margin:60px 50px 0px 50px;
+}
+.content p{
+	margin-top: 15px;
+}
+.hitokoto{
+	text-align:left;
+	font-size:1.5em;
+	text-indent: 1.2em;
+	letter-spacing: 1.3px;
+	font-weight: 500;
+}
+.from{
+	font-size:.9em;
+	float:right;
+}
+.button{
+	margin-top: 60px;
+}
+.sub{
+	cursor: pointer;
+	border: 1px solid #fff;
+	height: 2.4em;
+	width: 120px;
+	font-size: .8em;
+	float:right;
+	margin: 0 50px 20px auto; 
+	color:#fff;
+}
+span{
+	margin-top: 20px;
+	display: block;
+	color:#fff;
+	font-size: .7em;
+}
+@media(min-width:680px){
+	.windows{
+	}
+}
