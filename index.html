@@ -5,12 +5,23 @@
 	<title>动画一言</title>
 	<script src="hitokoto.js"></script>
 	<link rel="stylesheet" href="hitokoto.css">
+	<!--提示禁用javascript的用户启用javascript脚本-->
+	<noscript>
+	  <div style="margin-top: 50px;text-align:center;line-height:1.5">
+	    <h3>当您看到这条消息时,说明您的浏览器设置有问题，无法正常显示内容。解决方法有2、</h3><br />
+	    <span>1.请按照提示启动（脚本与ActiveX控件）。<br /></span>
+	    <span>2.请使用其他浏览器，若依然显示这条消息，请再尝试其他浏览器或者联系管理员。</span>
+	  </div>
+	</noscript>
 </head>
 <body>
 	<div class="windows">
 		<div class="content">
 			<p class="hitokoto"> </p>
 			<p class="from"> </p>
+			<div class="progress-con">
+				<div class="progress-time" style="left:0%"></div>
+			</div>
 		</div>
 		<div class="button">
 			<input type="button" class="sub" value="New">

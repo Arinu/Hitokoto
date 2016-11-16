@@ -30,17 +30,36 @@
 	font-size:.9em;
 	float:right;
 }
+.progress-con{
+	position: absolute;
+	bottom: 35px;
+	width: 64%;
+	left: 20px;
+	height: 3px;
+	overflow: hidden;
+}
+.progress-time{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: left 12s;
+	-webkit-transition: left 12s;
+	-o-transition: left 12s;
+	-ms-transition: left 12s;
+	-moz-transition: left 12s;
+}
 .button{
 	margin-top: 60px;
 }
 .sub{
 	cursor: pointer;
 	border: 1px solid #fff;
+	border-radius: 4px;
 	height: 2.4em;
 	width: 120px;
 	font-size: .8em;
 	float:right;
-	margin: 0 50px 20px auto; 
+	margin: 0 50px 20px auto;
 	color:#fff;
 }
 a{
@@ -49,9 +68,4 @@ a{
 	color:#fff;
 	font-size: .7em;
 	text-decoration: none;
-}
-@media(max-width:580px){
-	.windows{
-		width: 420px;
-	}
 }
